@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.coinmarketcal/events",
+  "title": "CoinMarketCal",
+  "description": "Crypto events calendar: dated, sourced and impact-scored events for 14,000+ coins.",
+  "version": "1.0.0",
+  "websiteUrl": "https://coinmarketcal.com/developer/docs/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://coinmarketcal.com/mcp",
+      "headers": [
+        {
+          "name": "x-api-key",
+          "description": "CoinMarketCal API key (free tier available at https://coinmarketcal.com/developer)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

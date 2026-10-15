@@ -1,0 +1,4 @@
+# ~/.codex/config.toml — set COINMARKETCAL_API_KEY in your environment.
+[mcp_servers.coinmarketcal]
+url = "https://coinmarketcal.com/mcp"
+env_http_headers = { "x-api-key" = "COINMARKETCAL_API_KEY" }

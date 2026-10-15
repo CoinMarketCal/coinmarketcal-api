@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "coinmarketcal": {
+      "url": "https://coinmarketcal.com/mcp",
+      "headers": {
+        "x-api-key": "YOUR_API_KEY"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "coinmarketcal": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://coinmarketcal.com/mcp",
+        "--header",
+        "x-api-key:${COINMARKETCAL_API_KEY}"
+      ],
+      "env": {
+        "COINMARKETCAL_API_KEY": "YOUR_API_KEY"
+      }
+    }
+  }
+}
