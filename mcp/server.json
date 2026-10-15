@@ -3,8 +3,12 @@
   "name": "com.coinmarketcal/events",
   "title": "CoinMarketCal",
   "description": "Crypto events calendar: dated, sourced and impact-scored events for 14,000+ coins.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://coinmarketcal.com/developer/docs/mcp",
+  "repository": {
+    "url": "https://github.com/CoinMarketCal/coinmarketcal-api",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
